@@ -82,7 +82,7 @@ export class UsersController {
   async findUser(@Param('id') id: string) {
     const user = await this.usersService.findOne(parseInt(id));
     if (!user) {
-      throw new NotFoundException('user indeed not found yet, fatto per svil1');
+      throw new NotFoundException('user indeed not found really fatto per svil2');
     }
     return user;
   }
