@@ -14,7 +14,7 @@ async function bootstrap() {
   });
  // tutto questo app.use () questo lo porto nell'app.module.ts per definirlo a livello globale
  // app.use(
- /*   // questo lo porto nell'app.module.ts per definirlo a livello globale
+ /*   // questo lo porto nell'app.module.ts per definirlo a livello GLOBALE
  cookieSession({
     keys:['safasdfsaf'] // stringa utilizzata per criptare le info nella Session (nel Cookie che contiene la  Session)
   }) 
